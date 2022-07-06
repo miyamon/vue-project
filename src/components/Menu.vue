@@ -15,9 +15,13 @@
 </template>
 
 <style lang="scss">
+@import "../assets/colors.scss";
 .menu {
     display: flex;
     justify-content: space-around;
+    background-color: $black-100;
+    margin-top: 100px;
+    height: 55px;
 
     &__item:after {
     content: url(../assets/icons/arrow.svg);

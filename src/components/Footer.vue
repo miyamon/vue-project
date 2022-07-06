@@ -47,7 +47,7 @@
 .footer {
   &__links {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   &__links-column {
