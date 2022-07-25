@@ -1,18 +1,12 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import SidebarLinks from "./SidebarLinks.vue";
+</script>
 
 <template>
   <div>
-    <div>
-      <a></a>
-      <a></a>
-      <a></a>
-      <a></a>
-      <a></a>
-    </div>
-    <div>
-      <Banner />
-      <Banner />
-    </div>
+    <SidebarLinks />
+    <Banner />
+    <Banner />
   </div>
 </template>
 
